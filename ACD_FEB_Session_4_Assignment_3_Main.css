@@ -1,0 +1,43 @@
+
+.box{
+    width:100px;
+    height: 100px;
+    background: green;
+    border-radius: 0px;
+    position:relative;
+   
+}
+
+.box:hover{
+    width:100px;
+    height: 100px;
+    background: green;
+    border-radius: 0px;
+    position:relative;
+    animation-name: ChangeColorShape;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+}
+
+
+h5{
+     
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    top: 40px;
+    bottom: 0px;
+    margin: auto;
+    position:absolute;
+}
+
+@keyframes ChangeColorShape {
+    from{
+        background: green;
+        border-radius: 0px;
+    }
+    to{
+         background: orange;
+         border-radius: 60px;
+    }
+}
